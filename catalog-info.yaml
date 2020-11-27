@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-golang-service
+  description: backstage-golang-service
+  annotations: 
+    github.com/project-slug: jatinkr/backstage-golang-service
+    backstage.io/github-actions-id: jatinkr/backstage-golang-service
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Jatin
